@@ -37,3 +37,12 @@ def my_function(city3, city2, city1):
     print("The 3rd city is " + city3)
 
 my_function(city1="Mafeteng", city2="Berea", city3="Maseru")
+
+# Passing a list as an argument
+def my_function(food):
+    for x in food:
+        print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
