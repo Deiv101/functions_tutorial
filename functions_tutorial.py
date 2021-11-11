@@ -28,3 +28,12 @@ def my_function(*cities):
     print("The capital city is " + cities[2])
 
 my_function("Mafeteng", "Mohale's Hoek", "Maseru", "Quthing", "Mokhotlong", "Thaba-Tseka", "Berea", "Qacha's Nek", "Leribe")
+
+# Keyword Arguments
+"""You can also send arguments with the key = value syntax.
+
+This way the order of the arguments does not matter."""
+def my_function(city3, city2, city1):
+    print("The 3rd city is " + city3)
+
+my_function(city1="Mafeteng", city2="Berea", city3="Maseru")
