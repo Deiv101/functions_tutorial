@@ -46,3 +46,11 @@ def my_function(food):
 fruits = ["apple", "banana", "cherry"]
 
 my_function(fruits)
+
+# Return values
+def my_function(x):
+    return 5 * x
+
+print(my_function(10000))
+print(my_function(4))
+print("\t", my_function("Deiv"))
