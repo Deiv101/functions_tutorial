@@ -54,3 +54,15 @@ def my_function(x):
 print(my_function(10000))
 print(my_function(4))
 print("\t", my_function("Deiv"))
+
+# Recursion
+def tri_recursion(k):
+    if k > 0:
+        result = k + tri_recursion(k - 1)
+        print(result)
+    else:
+        result = 0
+    return result
+
+print("\n\nRecursion Example Results")
+tri_recursion(6)
