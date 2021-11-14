@@ -69,6 +69,13 @@ tri_recursion(6)
 
 ##########################################################################################################################
 def greet(name):
-    print("Hello " + name)
+    """
+    This function greets to
+    the person passed in as
+    a parameter
+    """
+    print("Hello, " + name + ". Good morning")
 
 greet("Amo")
+
+# 
