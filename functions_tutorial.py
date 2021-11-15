@@ -90,9 +90,20 @@ def abs_value(num):
 
 print(abs_value(-5)); print(abs_value(3))
 
+###########################################################################################################################
 print("\t")
 def greet(name, msg):
     """This function greets the person with the provided message"""
-    print("Hello, "  + name + ", " + msg)
+    print("Hello"  + name + ", " + msg)
 
 greet("Amo", "Top of the morning to you!")
+
+###########################################################################################################################
+# Default arguments
+def greet(name, msg = "Good morning!"):
+    """This function greets the person with the provided message"""
+    """If the message is not provided, it defaults to 'Good morning!'"""
+    print("Hello, ", name,'' + msg)
+
+greet("Amo,")
+greet("Amo,", "How are you this morning?")
