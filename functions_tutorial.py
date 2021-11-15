@@ -107,3 +107,16 @@ def greet(name, msg = "Good morning!"):
 
 greet("Amo,")
 greet("Amo,", "How are you this morning?")
+
+###########################################################################################################################
+print("\n")
+# Recursive function
+def factorial(x):
+    """this is a recursive function to find the factorial of an integer"""
+    if x == 1:
+        return 1
+    else:
+        return (x * factorial(x-1))
+
+num = 7
+print("The factorial of num", num, "is", factorial(num))
