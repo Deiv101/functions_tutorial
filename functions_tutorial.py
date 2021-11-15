@@ -78,4 +78,14 @@ def greet(name):
 
 greet("Amo")
 
-# 
+
+
+# Example of return
+def abs_value(num):
+    """This function returns the absolute value of the entered number"""
+    if num >= 0:
+        return num
+    else:
+        return -num
+
+print(abs_value(-5)); print(abs_value(3))
