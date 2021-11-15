@@ -89,3 +89,10 @@ def abs_value(num):
         return -num
 
 print(abs_value(-5)); print(abs_value(3))
+
+print("\t")
+def greet(name, msg):
+    """This function greets the person with the provided message"""
+    print("Hello, "  + name + ", " + msg)
+
+greet("Amo", "Top of the morning to you!")
