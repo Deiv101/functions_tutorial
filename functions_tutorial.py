@@ -137,4 +137,13 @@ def func(a, b, c):
     else:
         return num
 func(2, 4, 6)
-    
+
+###########################################################################################################################
+print("\n")
+def iter(a):
+    x = int(input("Enter a number: "))
+    while x <= 0:
+        print("The number you entered is: ", x)
+    else:
+        return x
+iter(2)        
