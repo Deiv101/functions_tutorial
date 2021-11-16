@@ -112,7 +112,7 @@ greet("Amo,", "How are you this morning?")
 print("\n")
 # Recursive function
 def factorial(x):
-    """this is a recursive function to find the factorial of an integer"""
+    """This is a recursive function to find the factorial of an integer"""
     if x == 1:
         return 1
     else:
@@ -120,3 +120,11 @@ def factorial(x):
 
 num = 7
 print("The factorial of num", num, "is", factorial(num))
+
+###########################################################################################################################
+print("\n")
+def calc(num1, num2):
+    add = num1 + num2
+    print("The Sum of ", num1, "&", num2, "is", add)
+
+calc(2, 4)
