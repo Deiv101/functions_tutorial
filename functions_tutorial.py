@@ -128,3 +128,13 @@ def calc(num1, num2):
     print("The Sum of ", num1, "&", num2, "is", add)
 
 calc(2, 4)
+###########################################################################################################################
+print("\n")
+def func(a, b, c):
+    lis = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    if num in lis:
+        print("The fifth number is", lis[5])
+    else:
+        return num
+func(2, 4, 6)
+    
