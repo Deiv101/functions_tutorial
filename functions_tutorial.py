@@ -153,3 +153,12 @@ print("\n")
 def lumelisa(name):
     print("Lumela " + name)
 lumelisa("Amo")
+
+###########################################################################################################################
+18/11/2021
+
+def square(number):
+    """Calculate the square of number."""
+    return number ** 2
+
+square(5)
