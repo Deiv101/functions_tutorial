@@ -162,3 +162,14 @@ def square(number):
     return number ** 2
 
 square(5)
+
+
+###########################################################################################################################
+def maximum(a, b, c):
+    """Return the maximum of three values."""
+    max_value = a
+    if b > max_value:
+        max_value = b
+    if c > max_value:
+        max_value = c
+    return max_value
