@@ -176,3 +176,10 @@ def maximum(a, b, c):
     return max_value
 
 ####################################################################################################################################################################
+def func(a):
+    num = 0
+    if num != 0:
+        print("You entered a number that's no zero")
+    else:
+        print("You hit zero")
+func(0)
