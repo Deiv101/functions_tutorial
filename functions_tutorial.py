@@ -144,6 +144,7 @@ def iter(a):
     x = int(input("Enter a number: "))
     while x <= 0:
         print("The number you entered is: ", x)
+        break
     else:
         return x
 iter(2)   
@@ -177,9 +178,9 @@ def maximum(a, b, c):
 
 ####################################################################################################################################################################
 def func(a):
-    num = 0
+    num = int(input("Enter a number: "))
     if num != 0:
-        print("You entered a number that's no zero")
+        print("You entered a number that's not a zero")
     else:
-        print("You hit zero")
+        print("You hit a zero")
 func(0)
