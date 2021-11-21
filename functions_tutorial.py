@@ -183,4 +183,5 @@ def func(a):
         print("You entered a number that's not a zero")
     else:
         print("You hit a zero")
-func(0)
+        return num
+func(1)
