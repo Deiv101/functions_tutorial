@@ -201,3 +201,12 @@ for i in range(11):
 a_list = []
 for number in range(1, 6):
     a_list +=[number]
+
+####################################################################################################################################################################
+numbers = [3, 7, 1, 4, 2, 8, 5, 6]
+key = 1000
+
+if key in numbers:
+    print(f'found {key} at index {numbers.index(search_key)}')
+else:
+    print(f'{key} not found')
