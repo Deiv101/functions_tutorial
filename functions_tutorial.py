@@ -34,6 +34,8 @@ def my_function(*cities):
 
 my_function("Mafeteng", "Mohale's Hoek", "Maseru", "Quthing", "Mokhotlong", "Thaba-Tseka", "Berea", "Qacha's Nek", "Leribe")
 
+####################################################################################################################################################################
+
 # Keyword Arguments
 """You can also send arguments with the key = value syntax.
 
