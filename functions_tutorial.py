@@ -185,6 +185,7 @@ def func(a):
         print("You hit a zero")
         return num
 func(1)
+
 ####################################################################################################################################################################
 def factorial(number):
     """Return factorial of a number."""
@@ -193,3 +194,10 @@ def factorial(number):
     return number * factorial(number - 1) # recursive call
 for i in range(11):
     print(f'{i}! = {factorial(i)}')
+
+####################################################################################################################################################################
+
+# Lists and Tuples
+a_list = []
+for number in range(1, 6):
+    a_list +=[number]
