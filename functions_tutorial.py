@@ -21,6 +21,8 @@ def my_function(fname, lname):
 
 my_function("Deiv", "Rakojoana")
 
+####################################################################################################################################################################
+
 # Arbitrary Arguments, *args
 """
 If you do not know how many arguments that will be passed into your function, add a * before the parameter name in the function definition.
